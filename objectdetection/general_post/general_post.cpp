@@ -141,7 +141,7 @@ HIAI_StatusT GeneralPost::FasterRcnnPostProcess(
     INFO_LOG("handle results: memcpy_s() error=%d", mem_ret);
     //continue;
   }
-
+  //根据原图像修改
   uint32_t width = 300;
   uint32_t height = 300;
   //uint32_t img_size = img_vec[ind].img.size;
